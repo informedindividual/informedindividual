@@ -1,54 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Informed individual</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <img class="wrap header-image" src="ii-header.png" />
-        <p class="center">
-          Informed Individual er en ideell, frivillig organisasjon hvis mål er å styrke enkeltmenneskets evne til å foreta valg i henhold til sine egne verdier.
-        </p>
-        <p class="center">
-          Vi arbeider med å bygge en infrastruktur for behandling av informasjon som skiller data, tolkning og distribusjon.      
-        </p>
-      
-        <p class="center">
-          I tillegg til å lage tekniske informasjonsløsninger er mye av vårt arbeide knyttet til å påvirke tilgjengeligheten av offentlig data. Vi mener at allment tilgjengelig nøytrale data er essensielt for at forbrukeren skal kunne foreta bevisste og informerte valg.
-        </p>
-        <p class="center">
-          Full tilgang til informasjon er avgjørende for at forbrukerne skal kunne utøve sin innflytelse som forbruker og for effektive markeder. I dag er data relatert til forbruksvarer er utilgjengelig for publikum, og dette er ikke akseptabelt .
-        </p>
-        <p>
-          Vi krever at norske myndigheter straks tar tiltak for å styrke forbrukernes posisjon:
-        </p>
-        <b class="center">
-          Vi krever at relevante data ¹
-          forbundet med varer og tjenester i Norge ²
-          gjøres offentlig tilgjengelig ³.
-        </b>
-        <ol>
-          <li>Relevante data betyr alle data som kan brukes til å styrke en forbrukers effektive kjøpekraft. Dette kan være pris, ingredienser, næringsinnhold, verdikjede etc.</li>
-          <li>Varer og tjenester i Norge : ethvert produkt eller tjeneste som kan identifiseres. Dette kan være alt fra dagligvarer, forbrukerelektronikk, restauranter eller rørleggere.</li>
-          <li>Offentlig tilgjengelig betyr uten juridiske restriksjoner på bruk (fritt lisensiert), strukturerte (standardisert format, lenkbart), og uten unødvendig barrierer for tilgang. Det må være et dokumentert og åpent API med mulighet for bulk- overføringer.</li>
-        </ol>
-        
 
-        
-        
-        
-        
-        
-    </main>
-    <footer>
-      <img class="footer-image" src="ii-footer.png" />
-      <!--Informed Individual is a voluntary organisation. Our goal is to strengthen the individual's ability to make choices according to their own values.-->
-    </footer>
-	<script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Informed individual</title>
+  <link rel="stylesheet" href="./bulma.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <!--<link rel="stylesheet" href="./normalize.css">-->
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <div class="columns is-desktop">
+      <div class="column is-full">
+        <div class="box">
+          <div class="block">
+            <figure class="image is-32x32">
+              <img src="ii-footer.png">
+            </figure>
+          </div>
+          <div class="block">
+            <strong>Informed Individual</strong> er en ideell, frivillig organisasjon hvis mål er å styrke
+            enkeltmenneskets evne til å foreta valg <em>i henhold til sine egne verdier</em>.
+            Vi arbeider med å bygge en infrastruktur for behandling av informasjon som skiller data, tolkning og
+            distribusjon. I tillegg til å lage tekniske informasjonsløsninger er mye av vårt arbeide knyttet til å
+            påvirke
+            tilgjengeligheten av offentlig data. Vi mener at allment tilgjengelig nøytrale data er essensielt for at
+            forbrukeren skal kunne foreta bevisste og informerte valg. Full tilgang til informasjon er avgjørende for
+            at
+            forbrukerne skal kunne utøve sin innflytelse som forbruker og for effektive markeder. I dag er data
+            relatert
+            til forbruksvarer er utilgjengelig for publikum, og dette er ikke akseptabelt.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="hero is-danger is-medium">
+      <div class="hero-body">
+        <div class="">
+          <p class="title has-text-centered">
+            Opprop
+          </p>
+          <p class="subtitle  has-text-centered">
+            Vi krever at norske myndigheter straks tar tiltak for å styrke forbrukernes posisjon
+          </p>
+          <div class="container has-text-centered">
+            Vi krever at relevante data ¹<br />
+            forbundet med varer og tjenester i Norge ²<br />
+            gjøres offentlig tilgjengelig ³.<br />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="hero-body footer-text">
+        <ol>
+          <li><em>Relevante data</em> betyr alle data som kan brukes til å styrke en forbrukers effektive kjøpekraft.
+            Dette kan
+            være pris, ingredienser, næringsinnhold, verdikjede etc.</li>
+          <li><em>Varer og tjenester i Norge</em>: ethvert produkt eller tjeneste som kan identifiseres. Dette kan
+            være alt fra
+            dagligvarer, forbrukerelektronikk, restauranter eller rørleggere.</li>
+          <li><em>Offentlig tilgjengelig</em> betyr uten juridiske restriksjoner på bruk (fritt lisensiert),
+            strukturerte
+            (standardisert format, lenkbart), og uten unødvendig barrierer for tilgang. Det må være et dokumentert og
+            åpent API med mulighet for bulk- overføringer.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!--
+        <div class="container">
+          <iframe src="https://player.vimeo.com/video/11538238?h=8ba9a92031" height="200" frameborder="0"
+              allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          <div class="block">
+            Introduksjonsfilm om Informed Individual.
+          </div>
+      </div>
+    -->
+  </main>
+  <footer>
+
+    <!--Informed Individual is a voluntary organisation. Our goal is to strengthen the individual's ability to make choices according to their own values.-->
+  </footer>
+  <script src="index.js"></script>
+</body>
+
 </html>
