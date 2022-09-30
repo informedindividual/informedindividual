@@ -9,3 +9,8 @@
     font-size: small;
     text-align:left;
 }
+
+.is-petition {
+    background-color: #fdb81e;
+    color: #212121;
+}
