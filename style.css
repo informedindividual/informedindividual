@@ -1,4 +1,44 @@
+
 .header-image {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;   
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+b {
+    font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+
+ol {
+    counter-reset: list;
+}
+ol > li {
+    list-style: none;
+}
+ol > li:before {
+    content: counter(list, decimal) ") ";
+    counter-increment: list;
+}
+li {
+    padding-bottom: 5px;
+}
+
+
+.footer-image {
     display:block;
     margin-left:auto;
     margin-right:auto;
